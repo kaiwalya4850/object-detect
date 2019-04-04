@@ -7,3 +7,7 @@ For running the model, a user needs a raspberry pi with a pi cam or USB camera a
 This is passed through the trained model. And we get an output. 
 
 This is checked again and again at certain intervals, if the same object is present at certain amount of time, we conclue the object is present there since a long time. 
+
+As raspberry pi is a micro computer it lacks in computational power, so, same thing can be hosted on any server(say floydhub). In those cases, the pi sends the output to the server and everything is processed on serverside and we get an API key to get the outputs(we can send requests to it by POSTMAN)
+
+The model would soon be trained on car images. More and more would be added.
