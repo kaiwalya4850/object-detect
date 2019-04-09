@@ -11,3 +11,5 @@ This is checked again and again at certain intervals, if the same object is pres
 As raspberry pi is a micro computer it lacks in computational power, so, same thing can be hosted on any server(say floydhub). In those cases, the pi sends the output to the server and everything is processed on serverside and we get an API key to get the outputs(we can send requests to it by POSTMAN)
 
 The model would soon be trained on car images. More and more would be added.
+
+The model is now trained even to identify the difference between car and motorcycle, all a person needs to do is download a file from above drive link. If it is for leaf detection, go for RETRAINED_GRAPHS.PB and RETRAINED_LABELS.TXT and f you want to detect cars, use the files, OUTPUT_GRAPHS_CAR.PB and OUTPUT_LABELS_CARS.TXT. (Dont forget to configure raspberry pi properly!)
