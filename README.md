@@ -13,3 +13,5 @@ As raspberry pi is a micro computer it lacks in computational power, so, same th
 The model would soon be trained on car images. More and more would be added.
 
 The model is now trained even to identify the difference between car and motorcycle, all a person needs to do is download a file from above drive link. If it is for leaf detection, go for RETRAINED_GRAPHS.PB and RETRAINED_LABELS.TXT and f you want to detect cars, use the files, OUTPUT_GRAPHS_CAR.PB and OUTPUT_LABELS_CARS.TXT. (Dont forget to configure raspberry pi properly!)
+
+Open code_data folder for license plate code, there exract the training data files and open LPOCR.ipynb, make sure to keep evertything in one folder and just run as it is. HOPE SO TESERACT WORKS! else use imread function from openCV, it worked.
